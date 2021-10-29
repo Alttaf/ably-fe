@@ -98,7 +98,7 @@ a.red:active, .red a:active {
     src: url('MODE7GX3.TTF'), url('MODE7GX3.EOT');  /* .EOT is for IE */
 }
 
-body, td.teletext {
+body, input, td.teletext {
     font-family: Mode7, monospace, courier, fixed;
     font-size: 20px;
     font-smooth: never;
