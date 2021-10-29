@@ -61,7 +61,8 @@ const App = () => {
           <Grid.Column>
             <img className="ui fluid image" src="ttext.png"/>
             <p style={{ fontSize: '1.33em' }}>
-              This is a Hackathon entry which is based on Teletext, Teletext was a protocol that allowed broadcasters to send text signals to televisions, this hackathon entry is a similar concept, broadcasting social media data in real time via Ably's realtime API.
+              This is a GopherCon 2021 Ably Hackathon entry inspired by Teletext. Teletext was a protocol that allowed broadcasters to send text signals to televisions. In the same vein, we are broadcasting tweets in real time via Ably's realtime API.
+              This is showing tweets from the hashtag "google", but the request can be modified for an event to track real time tweet usage for a hashtag (we got rate limited when we tried this!).
             </p>
           </Grid.Column>
         </Grid.Row>
