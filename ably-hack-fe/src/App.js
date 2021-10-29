@@ -72,7 +72,7 @@ const App = () => {
         <table class="GeneratedTable">
   <thead>
     <tr>
-      <th style={{width:"30%"}}>Time</th>
+      <th style={{width:"30%"}}>Time (GMT)</th>
       <th style={{width:"30%"}}>Tweet Count</th>
       <th style={{width:"30%"}}>Tweet Count in Gophers</th>
     </tr>
