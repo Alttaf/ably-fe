@@ -74,7 +74,7 @@ const App = () => {
     <tr>
       <th style={{width:"30%"}}>Time</th>
       <th style={{width:"30%"}}>Tweet Count</th>
-      <th style={{width:"30%"}}>Gophers</th>
+      <th style={{width:"30%"}}>Tweet Count in Gophers</th>
     </tr>
   </thead>
           {
