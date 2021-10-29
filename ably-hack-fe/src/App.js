@@ -24,14 +24,20 @@ const App = () => {
     newMsgs: []
   }); // to hold all messages and incoming new messages
 
-  let you = {};
+
+  useEffect(()=>{
+    console.log("user effect")
+    fetch("https://calm-island-77794.herokuapp.com/hello/sd")
+  .then(res => res.json())
+  .catch(e =>{
+    console.error("there was an error:",e)
+  })
+}, [])
 
   useEffect(() => {
-    console.log("user effect")
+
     // Subscribing for chatMessage
     twitterChannel.subscribe("test", ({data}) => {
-      console.log("twitterCdhannel")
-      console.log(data)
       var dataObj = JSON.parse(data);
 
 
