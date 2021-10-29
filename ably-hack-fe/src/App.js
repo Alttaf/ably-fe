@@ -29,6 +29,7 @@ const App = () => {
     console.log("user effect")
     fetch("https://calm-island-77794.herokuapp.com/hello/sd")
   .then(res => res.json())
+  .then(res => console.log("result",res))
   .catch(e =>{
     console.error("there was an error:",e)
   })
